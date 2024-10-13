@@ -1,7 +1,7 @@
 # Deep-Learning-alpjai-Main-Project
 Team name: BHAF
 Names and Neptun codes of the team memebres:
-    Bilszky Márk, C0QVQN
+    Bilszky Márk, C0QVQN	
     Sági Máté, 
     Pesti Patrik, 
 Project name: Airbus Ship Detection Challenge
