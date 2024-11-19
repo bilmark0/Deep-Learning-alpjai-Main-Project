@@ -95,6 +95,12 @@ pip install -r requirements.txt
 - Execute the cells step-by-step to train and test the model.  
 
 ---
+## *Results*  
+Here are some sample results from the simplified Mask R-CNN model:  
+- *Input Image*: Satellite images from the dataset.  
+- *Predicted Output*: Binary masks highlighting ships in the images.  
+
+---
 
 ## *Evaluation*  
 
