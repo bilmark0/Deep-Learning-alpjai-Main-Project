@@ -113,15 +113,13 @@ pip install -r requirements.txt
 
 ---
 ## *Results*  
-Here are some sample results from the simplified Mask R-CNN model:  
-- *Input Image*: Satellite images from the dataset.  
-- *Predicted Output*: Binary masks highlighting ships in the images.  
+What we see is that the modell can guess the area really well where the ship is located, but it may have a crude outline.  A few example pictures can be viewd at the end of "main.iypnb"
 
 ---
 
 ## *Evaluation*  
 
-As for evaluation, plotting the learning curve is challenging due to the long training time per epoch. However, this can be observed directly by running the code or by checking the GitHub repository, where the notebook is available.  
+As for evaluation, plotting the learning curve is challenging due to the long training time per epoch (still in "evaluation_main.ipynb and evaluation_hyp_opt.ipynb" it may be observed through training with a smaller dataset). As for the "main.ipynb" the full training, even with 1 or 2 epochs, the model learns the relevant patterns really well, due to the large number of training data.
 
 ### Key Points:  
 1. *Large Backbone Network*:  
