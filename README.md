@@ -79,7 +79,7 @@ The model currently generates masks that highlight ships, but further tuning is 
 
 ---
 
-## *Planned Improvements*  
+## *Possible Improvements*  
 1. *Higher Resolution Output*:  
    - Enhance the mask output to align more precisely with ship boundaries.  
 2. *Model Expansion*:  
