@@ -51,6 +51,9 @@ It uses Keras Tuner algorithm to find the best parameters for the following opti
 These two Jupyter Notebooks runs the model on a small dataset with two different parameter sets:
    - *evaluation_main.ipynb*: main.ipynb utilizes the same parameters as tested here
    - *evaluation_hyp_opt.ipynb*: these are the parameters which are fund to be the best by hyperparameter_opt.ipynb
+
+### **presentation.ipynb**
+This Jupyter Notebook was created only for presentational purposes, a presaved model and a directory with some images has to be uploaded to it.
 ---
 
 ## *Neural Network*  
