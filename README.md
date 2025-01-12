@@ -20,7 +20,9 @@ To achieve this, we implement a *simplified Mask R-CNN* model with a *ResNet50 b
 
 ## *Files*  
 
-### **deepl_bp.ipynb**  
+All of the .ipynb Jupyter Notebooks share the same code parts for the data processing part, in order to be able to work on the same data from Kaggle.
+
+### **main.ipynb**  
 This Jupyter Notebook is the core of the project.  
 
 #### Key Features:  
@@ -35,8 +37,20 @@ This Jupyter Notebook is the core of the project.
 
 3. *Neural Network Integration*  
    - Implements a *simplified Mask R-CNN* model to generate binary masks for ship detection.  
-   - Demonstrates the performance of the model by overlaying predictions on sample input images.  
+   - Demonstrates the performance of the model by overlaying predictions on sample input images.
 
+### **hyperparameter_opt.ipynb**
+This Jupyter Notebook contains the hyperparameter optimization for the Masked R-CNN model shown in main.py.
+It uses Keras Tuner algorithm to find the best parameters for the following options:
+    - *Learning Rate*: Controls the step size for weight updates during optimization.
+    - *Mask Head Filters*: Determines the number of filters in the convolutional layers of the mask head.
+    - *Activation Function*: Defines the non-linearity applied in the network.
+    - *Optimizer*: Adam optimizer was selected as the sole optimization algorithm for its balance between efficiency and stability, in order to reduce the optimization's computational time.
+
+### **evaluation_main.ipynb and evaluation_hyp_opt.ipynb**
+These two Jupyter Notebooks runs the model on a small dataset with two different parameter sets:
+   - *evaluation_main.ipynb*: main.ipynb utilizes the same parameters as tested here
+   - *evaluation_hyp_opt.ipynb*: these are the parameters which are fund to be the best by hyperparameter_opt.ipynb
 ---
 
 ## *Neural Network*  
